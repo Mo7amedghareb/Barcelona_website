@@ -1,0 +1,118 @@
+
+.mmm{
+    height: 100vh;
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+#tit{
+    width: max-content;
+    border-bottom: solid 10px red;
+    margin-left:auto;
+    margin-right: auto;
+    text-shadow: 2px 0px 5px white;
+}
+
+img{
+    width:600px ;
+    height: 400px;
+}
+
+#m{
+    width:600px ;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url(Camp-Nou-3.webp);
+}
+
+#m:hover{
+    background-image: url(barca2\ \(1\).jpg);
+    transition: 3S linear;
+    
+}
+
+#mg{
+    border-radius: 50%;
+}
+
+table{
+    border: solid 10px rgb(103, 16, 244);
+}
+table tr{
+    color: rgb(26, 25, 25);
+}
+table caption{
+    color: white ;
+    font: caption;
+    border-bottom: solid 5px black ;
+    font-size: larger;
+    font-style: italic;
+}
+
+h3{
+    width: fit-content;
+    border-bottom: 5px solid rgb(87, 9, 222) ;
+    text-shadow: 2px 0px 5px white;
+    font-size: xx-large;
+}
+
+iframe{
+    border-radius: 20px;
+}
+#vid{
+    position: absolute;
+    top: 310px;
+    right: 200px;
+}
+
+#basketvid{
+    position: absolute;
+    left: 150px;
+    
+}
+
+
+#favsportlabel{
+    
+    width: max-content;
+    border-bottom: solid 10px red;
+    text-shadow: 2px 0px 5px white;
+    
+    
+}
+.container{
+
+    height: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+.logo{
+    color: rgb(12, 0, 0);
+    text-decoration: none;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+ul{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    color: rgb(9, 1, 1);
+    font-size: larger;
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: rgb(11, 0, 0);
+}
+#champ{
+    width: fit-content;
+    border-bottom: 5px solid rgb(87, 9, 222) ;
+    text-shadow: 2px 0px 5px white;
+    font-size: xx-large;
+}

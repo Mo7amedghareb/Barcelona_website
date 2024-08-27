@@ -1,0 +1,58 @@
+#log{
+    text-decoration: underline dotted black;
+    font-size: xxx-large;
+    text-shadow: 2px 0px 5px white;
+    font-family:'Times New Roman', Times, serif
+}
+#label{
+    text-shadow: 2px 0px 10px rgb(14, 14, 14);
+    color: rgb(251, 244, 244);
+    font-size: 40px;
+}
+body{
+    background-image: url(br\ \(3\)1\ \(1\)2.png);
+}
+body:hover{
+    background-image: url(log2.jpg)     ;
+}
+input:invalid{
+    background-color:rgb(240, 240, 240);
+}
+input{
+    width: 260px;
+    height: 30px;
+}
+#all{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    
+}
+#pass{
+    position: absolute;
+    left :300px;
+}
+#label2{
+    text-shadow: 6px 5px 10px rgb(19, 19, 19);
+    color: rgb(251, 244, 244);
+    font-size: 40px;
+    position: absolute;
+    left: 300px;
+}
+#m{
+    position: absolute;
+    font-size: xx-large;
+    left: 20px;
+}
+#f{
+    position: absolute;
+    font-size: xx-large;
+    left: 20px;
+    
+}
+#countrylabel{
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+    text-shadow: 3px 0px rgb(7, 7, 20);
+}
